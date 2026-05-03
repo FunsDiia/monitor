@@ -1,10 +1,1 @@
-{
-  "name": "ВАРТА",
-  "description": "Real-time threat monitoring map for Ukraine.",
-  "requestFramePermissions": [
-    "geolocation"
-  ],
-  "majorCapabilities": [
-    "pwa"
-  ]
-}
+telethon
