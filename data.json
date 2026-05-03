@@ -1,58 +1,50 @@
 [
   {
-    "id": "краснокутськ_unknown_37",
+    "id": "прудянку_unknown_22",
     "type": "unknown",
-    "location_name": "Краснокутськ",
+    "location_name": "Прудянку",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T21:37:40.396085"
+    "timestamp": "2026-05-03T22:22:41.663720"
   },
   {
-    "id": "н_unknown_37",
+    "id": "бнр_unknown_22",
     "type": "unknown",
-    "location_name": "Н",
+    "location_name": "Бнр",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T21:37:40.396118"
+    "timestamp": "2026-05-03T22:22:41.663752"
   },
   {
-    "id": "вільшани_unknown_37",
+    "id": "рубіжне_unknown_22",
     "type": "unknown",
-    "location_name": "Вільшани",
+    "location_name": "Рубіжне",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T21:37:40.396134"
+    "timestamp": "2026-05-03T22:22:41.663765"
   },
   {
-    "id": "пересічне_unknown_37",
+    "id": "старий_unknown_22",
     "type": "unknown",
-    "location_name": "Пересічне",
+    "location_name": "Старий",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T21:37:40.396149"
+    "timestamp": "2026-05-03T22:22:41.663777"
   },
   {
-    "id": "богодухів_unknown_37",
+    "id": "шевченкове_unknown_22",
     "type": "unknown",
-    "location_name": "Богодухів",
+    "location_name": "Шевченкове",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T21:37:40.396163"
+    "timestamp": "2026-05-03T22:22:41.663791"
   },
   {
-    "id": "ізюм_unknown_37",
+    "id": "шестакове_unknown_22",
     "type": "unknown",
-    "location_name": "Ізюм",
+    "location_name": "Шестакове",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T21:37:40.396181"
-  },
-  {
-    "id": "сумську_unknown_37",
-    "type": "unknown",
-    "location_name": "Сумську",
-    "quantity": 1,
-    "source": "monitor1654",
-    "timestamp": "2026-05-03T21:37:40.396194"
+    "timestamp": "2026-05-03T22:22:41.663803"
   }
 ]
