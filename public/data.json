@@ -1,0 +1,4 @@
+[
+  { "id": 1, "lat": 49.9935, "lng": 36.2304, "type": "uav", "target": "Kharkiv", "severity": "high" },
+  { "id": 2, "lat": 50.088, "lng": 36.355, "type": "uav", "target": "Циркуни", "severity": "medium" }
+]
