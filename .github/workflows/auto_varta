@@ -3,6 +3,8 @@ on:
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -20,6 +22,13 @@ jobs:
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
           TG_SESSION_STRING: ${{ secrets.TG_SESSION_STRING }}
         run: python scraper.py
+      - name: Build
+        run: npm install && npm run build
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
       - name: Commit changes
         run: |
           git config --global user.name 'GitHub Action'
