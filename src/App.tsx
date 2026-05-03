@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import 'leaflet/dist/leaflet.css';
 
 const KHARKIV_POS: [number, number] = [49.9935, 36.2304];
-const THREATS_JSON_URL = '/data.json';
+const THREATS_JSON_URL = import.meta.env.BASE_URL + 'data.json';
 
 const MAP_LAYERS = {
     dark: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
