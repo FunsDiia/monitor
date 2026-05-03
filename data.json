@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "краснокутськ_unknown_37",
+    "type": "unknown",
+    "location_name": "Краснокутськ",
+    "quantity": 1,
+    "source": "monitor1654",
+    "timestamp": "2026-05-03T21:37:40.396085"
+  },
+  {
+    "id": "н_unknown_37",
+    "type": "unknown",
+    "location_name": "Н",
+    "quantity": 1,
+    "source": "monitor1654",
+    "timestamp": "2026-05-03T21:37:40.396118"
+  },
+  {
+    "id": "вільшани_unknown_37",
+    "type": "unknown",
+    "location_name": "Вільшани",
+    "quantity": 1,
+    "source": "monitor1654",
+    "timestamp": "2026-05-03T21:37:40.396134"
+  },
+  {
+    "id": "пересічне_unknown_37",
+    "type": "unknown",
+    "location_name": "Пересічне",
+    "quantity": 1,
+    "source": "monitor1654",
+    "timestamp": "2026-05-03T21:37:40.396149"
+  },
+  {
+    "id": "богодухів_unknown_37",
+    "type": "unknown",
+    "location_name": "Богодухів",
+    "quantity": 1,
+    "source": "monitor1654",
+    "timestamp": "2026-05-03T21:37:40.396163"
+  },
+  {
+    "id": "ізюм_unknown_37",
+    "type": "unknown",
+    "location_name": "Ізюм",
+    "quantity": 1,
+    "source": "monitor1654",
+    "timestamp": "2026-05-03T21:37:40.396181"
+  },
+  {
+    "id": "сумську_unknown_37",
+    "type": "unknown",
+    "location_name": "Сумську",
+    "quantity": 1,
+    "source": "monitor1654",
+    "timestamp": "2026-05-03T21:37:40.396194"
+  }
+]
