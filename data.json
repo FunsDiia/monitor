@@ -1,50 +1,34 @@
 [
   {
-    "id": "прудянку_unknown_22",
+    "id": "руські_unknown_07",
+    "type": "unknown",
+    "location_name": "Руські",
+    "quantity": 1,
+    "source": "monitor1654",
+    "timestamp": "2026-05-03T23:07:44.505595"
+  },
+  {
+    "id": "борщову_unknown_07",
+    "type": "unknown",
+    "location_name": "Борщову",
+    "quantity": 1,
+    "source": "monitor1654",
+    "timestamp": "2026-05-03T23:07:44.505622"
+  },
+  {
+    "id": "липці_unknown_07",
+    "type": "unknown",
+    "location_name": "Липці",
+    "quantity": 1,
+    "source": "monitor1654",
+    "timestamp": "2026-05-03T23:07:44.505638"
+  },
+  {
+    "id": "прудянку_unknown_07",
     "type": "unknown",
     "location_name": "Прудянку",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T22:22:41.663720"
-  },
-  {
-    "id": "бнр_unknown_22",
-    "type": "unknown",
-    "location_name": "Бнр",
-    "quantity": 1,
-    "source": "monitor1654",
-    "timestamp": "2026-05-03T22:22:41.663752"
-  },
-  {
-    "id": "рубіжне_unknown_22",
-    "type": "unknown",
-    "location_name": "Рубіжне",
-    "quantity": 1,
-    "source": "monitor1654",
-    "timestamp": "2026-05-03T22:22:41.663765"
-  },
-  {
-    "id": "старий_unknown_22",
-    "type": "unknown",
-    "location_name": "Старий",
-    "quantity": 1,
-    "source": "monitor1654",
-    "timestamp": "2026-05-03T22:22:41.663777"
-  },
-  {
-    "id": "шевченкове_unknown_22",
-    "type": "unknown",
-    "location_name": "Шевченкове",
-    "quantity": 1,
-    "source": "monitor1654",
-    "timestamp": "2026-05-03T22:22:41.663791"
-  },
-  {
-    "id": "шестакове_unknown_22",
-    "type": "unknown",
-    "location_name": "Шестакове",
-    "quantity": 1,
-    "source": "monitor1654",
-    "timestamp": "2026-05-03T22:22:41.663803"
+    "timestamp": "2026-05-03T23:07:44.505675"
   }
 ]
