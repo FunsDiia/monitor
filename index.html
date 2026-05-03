@@ -1,20 +1,28 @@
 <!doctype html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kharkiv Sentinel</title>
-    <link rel="manifest" href="manifest.json">
+    <title>ВАРТА | Моніторинг загроз</title>
+    
+    <!-- Исправленные пути для GitHub Pages -->
+    <link rel="manifest" href="/monitor/manifest.json">
+    <link rel="icon" type="image/png" href="/monitor/icon.png">
+
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('service-worker.js');
+          // Регистрация воркера с учетом папки репозитория
+          navigator.serviceWorker.register('/monitor/service-worker.js')
+            .then(reg => console.log('SW registered'))
+            .catch(err => console.log('SW error:', err));
         });
       }
     </script>
   </head>
   <body>
     <div id="root"></div>
+    <!-- Путь к main.tsx должен быть без начального слеша для корректной работы Vite Build -->
     <script type="module" src="src/main.tsx"></script>
   </body>
 </html>
