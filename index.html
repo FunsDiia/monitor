@@ -1,16 +1,29 @@
-import {StrictMode} from 'react';
-import {createRoot} from 'react-dom/client';
-import App from './App.tsx';
-import './index.css';
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ВАРТА | Моніторинг загроз</title>
+    
+    <!-- Исправленные пути для GitHub Pages -->
+    <link rel="manifest" href="/monitor/manifest.json">
+    <link rel="icon" type="image/png" href="/monitor/icon.png">
 
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js');
-  });
-}
-
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-);
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          // Регистрация воркера с учетом папки репозитория
+          navigator.serviceWorker.register('/monitor/service-worker.js')
+            .then(reg => console.log('SW registered'))
+            .catch(err => console.log('SW error:', err));
+        });
+      }
+    </script>
+    <script type="module" crossorigin src="/monitor/assets/index-CTOJ0Ts6.js"></script>
+    <link rel="stylesheet" crossorigin href="/monitor/assets/index-CZoq1FkS.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Путь к main.tsx должен быть без начального слеша для корректной работы Vite Build -->
+  </body>
+</html>
