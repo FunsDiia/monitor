@@ -1,58 +1,50 @@
 [
   {
-    "id": "лозову_unknown_00",
+    "id": "лозову_unknown_25",
     "type": "unknown",
     "location_name": "Лозову",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T16:00:22.142558"
+    "timestamp": "2026-05-03T16:25:04.256739"
   },
   {
-    "id": "краснопавлівку_drone_00",
+    "id": "краснопавлівку_drone_25",
     "type": "drone",
     "location_name": "Краснопавлівку",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T16:00:22.142583"
+    "timestamp": "2026-05-03T16:25:04.256763"
   },
   {
-    "id": "прудянку_drone_00",
+    "id": "прудянку_drone_25",
     "type": "drone",
     "location_name": "Прудянку",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T16:00:22.142601"
+    "timestamp": "2026-05-03T16:25:04.256783"
   },
   {
-    "id": "златопіль_unknown_00",
+    "id": "златопіль_unknown_25",
     "type": "unknown",
     "location_name": "Златопіль",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T16:00:22.142624"
+    "timestamp": "2026-05-03T16:25:04.256809"
   },
   {
-    "id": "золочів_unknown_00",
+    "id": "золочів_unknown_25",
     "type": "unknown",
     "location_name": "Золочів",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T16:00:22.142636"
+    "timestamp": "2026-05-03T16:25:04.256823"
   },
   {
-    "id": "цупівку_unknown_00",
+    "id": "цупівку_unknown_25",
     "type": "unknown",
     "location_name": "Цупівку",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T16:00:22.142650"
-  },
-  {
-    "id": "зміїв_unknown_00",
-    "type": "unknown",
-    "location_name": "Зміїв",
-    "quantity": 1,
-    "source": "monitor1654",
-    "timestamp": "2026-05-03T16:00:22.142665"
+    "timestamp": "2026-05-03T16:25:04.256838"
   }
 ]
