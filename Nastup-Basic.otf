@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Volja';
+  src: url('/Volja-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nastup';
+  src: url('/Nastup-Basic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --font-volja: "Volja", sans-serif;
+  --font-nastup: "Nastup", sans-serif;
+  --color-shahed: #FF3000;
+  --color-lightning: #00F2FF;
+  --color-airstrike: #FF0000;
+  --color-accent: #ffcc00;
+}
+
+@layer utilities {
+  .font-volja { font-family: var(--font-volja); }
+  .font-nastup { font-family: var(--font-nastup); }
+  .glass {
+    @apply backdrop-blur-md bg-[#0a0f19]/80 border border-white/10;
+  }
+  .glass-liquid {
+    @apply backdrop-blur-[35px] saturate-[200%] bg-gradient-to-br from-[rgba(20,20,20,0.7)] to-[rgba(10,10,10,0.85)] border border-[rgba(255,204,0,0.2)] shadow-[inset_0_0_20px_rgba(255,204,0,0.05)];
+  }
+}
+
+@keyframes molten {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.molten-gold {
+  background: linear-gradient(270deg, #5a0000, #FFCC00, #5a0000);
+  background-size: 200% 200%;
+  animation: molten 5s ease infinite;
+}
+
+@keyframes breathing {
+  0% { opacity: 0.5; transform: scale(0.95); }
+  50% { opacity: 1; transform: scale(1.05); }
+  100% { opacity: 0.5; transform: scale(0.95); }
+}
+
+.marker-breathing {
+  animation: breathing 2s infinite ease-in-out;
+}
+
+@keyframes sonar-wave {
+  0% { transform: scale(1); opacity: 0.8; }
+  100% { transform: scale(3); opacity: 0; }
+}
+
+.sonar-ring {
+  @apply absolute top-0 left-0 w-full h-full rounded-full border-2 border-[#FFCC00];
+  animation: sonar-wave 3s infinite;
+  opacity: 0;
+}
+.sonar-ring:nth-child(2) { animation-delay: 1s; }
+.sonar-ring:nth-child(3) { animation-delay: 2s; }
