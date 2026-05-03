@@ -1,42 +1,42 @@
 [
   {
-    "id": "барвінкове_drone_56",
+    "id": "барвінкове_drone_13",
     "type": "drone",
     "location_name": "Барвінкове",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T16:56:34.052562"
+    "timestamp": "2026-05-03T17:13:39.075826"
   },
   {
-    "id": "лозову_unknown_56",
+    "id": "лозову_unknown_13",
     "type": "unknown",
     "location_name": "Лозову",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T16:56:34.052749"
+    "timestamp": "2026-05-03T17:13:39.076013"
   },
   {
-    "id": "краснопавлівку_drone_56",
+    "id": "краснопавлівку_drone_13",
     "type": "drone",
     "location_name": "Краснопавлівку",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T16:56:34.052769"
+    "timestamp": "2026-05-03T17:13:39.076032"
   },
   {
-    "id": "прудянку_drone_56",
+    "id": "прудянку_drone_13",
     "type": "drone",
     "location_name": "Прудянку",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T16:56:34.052787"
+    "timestamp": "2026-05-03T17:13:39.076050"
   },
   {
-    "id": "златопіль_unknown_56",
+    "id": "златопіль_unknown_13",
     "type": "unknown",
     "location_name": "Златопіль",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T16:56:34.052811"
+    "timestamp": "2026-05-03T17:13:39.076074"
   }
 ]
