@@ -7,9 +7,9 @@ from geopy.geocoders import Nominatim
 
 # --- РЕКОМЕНДАЦІЯ: Замініть ці дані на ваші власні ---
 # Ви можете отримати API_ID та API_HASH за посиланням: https://my.telegram.org
-API_ID = 25635427  
-API_HASH = 'e2f99fb35400e6628c88ffd388308598' 
-CHANNEL_USERNAME = 'monitor1654' # Назва каналу (наприклад, 'monitor1654' або @channel_link)
+API_ID = 123456  
+API_HASH = 'your_api_hash' 
+CHANNEL_USERNAME = 'your_channel' # Назва каналу (наприклад, 'monitor1654' або @channel_link)
 
 # Ініціалізація Nominatim (Geopy)
 geolocator = Nominatim(user_agent="threat_parser")

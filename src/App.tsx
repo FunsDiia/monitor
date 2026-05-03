@@ -107,31 +107,39 @@ export default function App() {
     const fetchData = async () => {
         try { 
             const response = await fetch(THREATS_JSON_URL); 
-            if (response.ok) {
-                const data = await response.json();
-                const now = new Date();
-                const validThreats = (Array.isArray(data) ? data : []).filter(t => {
-                    const type = (t.type || '').toLowerCase();
-                    const target = (t.target || '').toLowerCase();
-                    const isClear = type.includes('відбій') || 
-                                    type.includes('чисто') ||
-                                    target.includes('відбій') ||
-                                    target.includes('чисто');
-                    if (isClear) return false;
-                    
-                    const threatTime = new Date(t.time);
-                    const diffMins = (now.getTime() - threatTime.getTime()) / (1000 * 60);
-                    return diffMins < 60; // 60 minutes
-                }).filter(t => {
-                   const type = (t.type || '').toLowerCase().split(' ')[0];
-                   return (settings.alertFilters || []).includes(type);
-                });
-                
-                if (validThreats.length > threats.length && settings.audioAlerts) {
-                    playSonarBeep();
-                }
-                setThreats(validThreats);
+            if (!response.ok) {
+                console.error('Fetch not OK:', response.status, response.statusText);
+                return;
             }
+            const contentType = response.headers.get("content-type");
+            if (!contentType || !contentType.includes("application/json")) {
+                const text = await response.text();
+                console.error('Received non-JSON content:', text);
+                return;
+            }
+            const data = await response.json();
+            const now = new Date();
+            const validThreats = (Array.isArray(data) ? data : []).filter(t => {
+                const type = (t.type || '').toLowerCase();
+                const target = (t.target || '').toLowerCase();
+                const isClear = type.includes('відбій') || 
+                                type.includes('чисто') ||
+                                target.includes('відбій') ||
+                                target.includes('чисто');
+                if (isClear) return false;
+                
+                const threatTime = new Date(t.time);
+                const diffMins = (now.getTime() - threatTime.getTime()) / (1000 * 60);
+                return diffMins < 60; // 60 minutes
+            }).filter(t => {
+               const type = (t.type || '').toLowerCase().split(' ')[0];
+               return (settings.alertFilters || []).includes(type);
+            });
+            
+            if (validThreats.length > threats.length && settings.audioAlerts) {
+                playSonarBeep();
+            }
+            setThreats(validThreats);
         } catch (error) { console.error('Error fetching threats', error); }
     };
     fetchData(); 

@@ -11,7 +11,7 @@ API_ID = os.environ.get('TG_API_ID')
 API_HASH = os.environ.get('TG_API_HASH')
 SESSION_STRING = os.environ.get('TG_SESSION_STRING')
 CHANNEL_USERNAME = 'monitor1654'
-OUTPUT_FILE = 'data.json'
+OUTPUT_FILE = 'public/data.json'
 
 # NLP Patterns
 THREAT_TYPES = {
