@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "руську_unknown_01",
+    "type": "unknown",
+    "location_name": "Руську",
+    "quantity": 1,
+    "source": "monitor1654",
+    "timestamp": "2026-05-04T17:01:12.696461"
+  },
+  {
+    "id": "питомник_unknown_01",
+    "type": "unknown",
+    "location_name": "Питомник",
+    "quantity": 1,
+    "source": "monitor1654",
+    "timestamp": "2026-05-04T17:01:12.696440"
+  },
+  {
+    "id": "великі_unknown_01",
+    "type": "unknown",
+    "location_name": "Великі",
+    "quantity": 1,
+    "source": "monitor1654",
+    "timestamp": "2026-05-04T17:01:12.696475"
+  },
+  {
+    "id": "полтавщину_unknown_01",
+    "type": "unknown",
+    "location_name": "Полтавщину",
+    "quantity": 1,
+    "source": "monitor1654",
+    "timestamp": "2026-05-04T17:01:12.696487"
+  },
+  {
+    "id": "барвінкове_missile_01",
+    "type": "missile",
+    "location_name": "Барвінкове",
+    "quantity": 1,
+    "source": "monitor1654",
+    "timestamp": "2026-05-04T17:01:12.696508"
+  },
+  {
+    "id": "краснокутськ_unknown_01",
+    "type": "unknown",
+    "location_name": "Краснокутськ",
+    "quantity": 2,
+    "source": "monitor1654",
+    "timestamp": "2026-05-04T17:01:12.696559"
+  }
+]
