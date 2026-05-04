@@ -1,34 +1,58 @@
 [
   {
-    "id": "руські_unknown_07",
+    "id": "шевченкове_unknown_00",
     "type": "unknown",
-    "location_name": "Руські",
+    "location_name": "Шевченкове",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T23:07:44.505595"
+    "timestamp": "2026-05-04T00:00:37.736667"
   },
   {
-    "id": "борщову_unknown_07",
+    "id": "зачепилівку_unknown_00",
     "type": "unknown",
-    "location_name": "Борщову",
+    "location_name": "Зачепилівку",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T23:07:44.505622"
+    "timestamp": "2026-05-04T00:00:37.736865"
   },
   {
-    "id": "липці_unknown_07",
+    "id": "липці_unknown_00",
     "type": "unknown",
     "location_name": "Липці",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T23:07:44.505638"
+    "timestamp": "2026-05-04T00:00:37.736748"
   },
   {
-    "id": "прудянку_unknown_07",
+    "id": "берестин_unknown_00",
     "type": "unknown",
-    "location_name": "Прудянку",
+    "location_name": "Берестин",
     "quantity": 1,
     "source": "monitor1654",
-    "timestamp": "2026-05-03T23:07:44.505675"
+    "timestamp": "2026-05-04T00:00:37.736896"
+  },
+  {
+    "id": "коломак_unknown_00",
+    "type": "unknown",
+    "location_name": "Коломак",
+    "quantity": 1,
+    "source": "monitor1654",
+    "timestamp": "2026-05-04T00:00:37.736797"
+  },
+  {
+    "id": "питомник_unknown_00",
+    "type": "unknown",
+    "location_name": "Питомник",
+    "quantity": 1,
+    "source": "monitor1654",
+    "timestamp": "2026-05-04T00:00:37.736813"
+  },
+  {
+    "id": "слатине_unknown_00",
+    "type": "unknown",
+    "location_name": "Слатине",
+    "quantity": 1,
+    "source": "monitor1654",
+    "timestamp": "2026-05-04T00:00:37.736828"
   }
 ]
